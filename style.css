@@ -1,0 +1,256 @@
+input {
+    display: block;
+    margin-bottom: 5px;
+}
+.h4{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.content{
+    display: flex;
+    width: 100%;
+    margin-top: -180px;
+    z-index: 10;
+    justify-content: space-between;
+}
+
+.page{
+    width: 210mm;
+    height: 297mm;
+    margin: 20px auto;
+    position: relative;
+    font-family: sans-serif;
+
+}
+    svg{
+    height: 25px;
+    width: 25px;
+    flex-shrink: 0;
+    color: blue;
+}
+@media print{
+ .page{
+    height: 297mm;
+    width: 210mm;
+    overflow: hidden;
+     border: 3px solid black;
+position: relative;
+}
+}
+@media screen {
+    .page{
+        width: 210mm;
+   height: 297mm;
+   margin: 20px auto;
+    border: 3px solid black;
+   position: relative;
+  
+    
+    }
+    
+}
+
+.top-red{
+   width: 0;
+   height: 0;
+   border-left: 210mm solid transparent;
+   border-top: 150mm solid rgb(254, 131, 106);
+   top: 0;
+   right: 0;
+   z-index: 1;
+}
+.bottom-red{
+    margin-top: -144px;
+   width: 0;
+   height: 0;
+   border-right: 60mm solid transparent;
+   border-bottom: 40mm solid rgb(254, 131, 106);
+   bottom: 0;
+   right: 0;
+   z-index: 0;
+}
+.info{
+    z-index: 2;
+}
+.contact-icons{
+    position: absolute;
+    right: 25px;
+    top: 200px;
+}
+.contact-icons p{
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    margin: 5px 0;
+}
+.profile-pic{
+    position: absolute;
+    top: 38mm;
+    left: 105mm;
+    transform: translateX(-50%);
+    z-index: 2;
+    margin-bottom: 20mm;
+}
+.profile-pic img {
+    width: 260px;
+    height: 260px;
+    border-radius: 80%;
+    border: 3px solid rgb(14, 9, 9);
+    object-fit: inherit;
+    
+}
+.top{
+    position: absolute;
+    width: 210mm;
+    height: 115mm;
+    overflow: hidden;
+    top: 0;
+}
+ .left{
+    margin-top: -230px;
+    padding: 3mm;
+    width: 32%;
+    color: rgb(10, 2, 2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    z-index: 10;
+    position: relative;
+}
+
+.right{
+    padding: 5mm;
+    position: relative;
+    width: 65%;
+    color: black;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0;
+    z-index: 10;
+}
+.info h1{
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+.info h3{
+    position: relative;
+    top: 20px;
+    left: 300px;
+}
+
+.summary{
+    text-align: left;
+    box-sizing: border-box;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.languages{
+    list-style: none;
+    width: 100%;
+    padding-left: 20px;
+}
+.languages li{
+    list-style-type: disc;
+    margin-left: 10px;
+    text-align: left;
+    width: 100%;
+}
+.date {
+    display: flex;
+    gap: 70px;
+    align-items: flex-start;
+    
+}
+.date p {
+    flex: 1;
+    margin: 0;
+    text-align: left;
+    white-space: nowrap;
+}
+.date p:first-child {
+    flex: 0 0 48%;
+}
+.date p:last-child{
+    flex:  0 0 48%;
+    margin-left: 65px;
+}
+.left h2{
+    margin-top: 10px;
+    margin-bottom: 5px;
+     border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, #feb47f , #ff7e5f);
+    border-image-slice: 1;
+}
+.right p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    margin-top: 1px;
+}
+
+.certificate {
+    background: rgba(254, 131, 106, 0.15);  
+     padding: 7px;
+    border-radius: 8px; 
+     margin-top: 2px; 
+}
+
+
+.hover-text a {
+    transition: 0.3s ease-in-out;
+}
+
+.hover-text a:hover {
+    color: rgb(254, 80, 60);
+    font-weight: bold;
+    text-decoration: underline;
+}
+.right h2{
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.hover-text a:active {
+    background: rgba(254, 131, 106, 0.35);
+    padding: 3px;
+    border-radius: 5px;
+}
+.right p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.right h4{
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+.right h3{
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.right h2{
+    margin-top: 30px;
+}
+.left h2{
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.clip1-area{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+ul{
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
