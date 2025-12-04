@@ -68,7 +68,7 @@ position: relative;
    border-bottom: 40mm solid rgb(254, 131, 106);
    bottom: 0;
    left: 0;
-   z-index: 0;
+   z-index: 1;
     margin-top: 0;
 }
 .clip1-area{
@@ -262,6 +262,7 @@ ul{
     margin-top: 5px;
     margin-bottom: 7px;
 }
+
 
 
 
