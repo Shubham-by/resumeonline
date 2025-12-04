@@ -61,7 +61,7 @@ position: relative;
 }
 .bottom-red{
     margin-bottom: 0px;
-    margin-top: -65px;
+    margin-top: -144px;
    width: 0;
    height: 0;
    border-right: 60mm solid transparent;
@@ -258,5 +258,6 @@ ul{
     margin-top: 5px;
     margin-bottom: 7px;
 }
+
 
 
