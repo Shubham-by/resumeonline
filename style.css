@@ -61,6 +61,7 @@ position: relative;
    z-index: 1;
 }
 .bottom-red{
+    position:absolute;
    width: 0;
    height: 0;
    border-right: 60mm solid transparent;
@@ -246,7 +247,6 @@ li{
     margin-bottom: 3px;
 }
 .clip1-area{
-    position: absolute;
     right: 0;
     bottom: 0;
     z-index: 1;
@@ -255,6 +255,7 @@ ul{
     margin-top: 5px;
     margin-bottom: 7px;
 }
+
 
 
 
