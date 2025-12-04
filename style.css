@@ -20,6 +20,7 @@ input {
     margin: 20px auto;
     position: relative;
     font-family: sans-serif;
+    overflow: hidden;
 
 }
     svg{
@@ -261,6 +262,7 @@ ul{
     margin-top: 5px;
     margin-bottom: 7px;
 }
+
 
 
 
