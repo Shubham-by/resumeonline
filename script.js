@@ -114,7 +114,7 @@ lidiv.appendChild(myskills);
 
 let inpskill = document.createElement("input");
 inpskill.type = "number";
-inpskill.placeholder = "how much skills u have";
+inpskill.placeholder = "put your skills here";
 lidiv.appendChild(inpskill);
 
 let skillbtn = document.createElement("button");
@@ -148,7 +148,7 @@ lihobbydiv.appendChild(myhobby);
 
 let inphobby = document.createElement("input");
 inphobby.type = "number";
-inphobby.placeholder = "how much intresting facts";
+inphobby.placeholder = "Hobby count";
 lihobbydiv.appendChild(inphobby);
 
 let hobbybtn = document.createElement("button");
@@ -182,7 +182,7 @@ lilangdiv.appendChild(mylang);
 
 let inplang = document.createElement("input");
 inplang.type = "number";
-inplang.placeholder = "how many languages u know";
+inplang.placeholder = "put your known languages count";
 lilangdiv.appendChild(inplang);
 
 let langbtn = document.createElement("button");
@@ -297,15 +297,15 @@ submitbtn.addEventListener("click",(inp) =>{
      
     let mobile = inpamno.value;
     contactA.href = `tel:+91${mobile}`;
-    contactP.innerHTML = mobile;
+    contactP.textContent = mobile;
 
     let gmail = inpamail.value;
     mailA.href = `mailto:${gmail}`;
-    mailP.innerHTML = gmail;
+    mailP.textContent = gmail;
 
     let Address = inpaadd.value;
     addA.href = Address;
-    addP.innerHTML = Address;
+    addP.textContent = Address;
 
     let file = proimage.files[0];
     if(file){
@@ -372,3 +372,4 @@ page.style.display = "block";
 })
 
 })
+
