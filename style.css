@@ -60,6 +60,7 @@ position: relative;
    z-index: 1;
 }
 .bottom-red{
+    margin-bottom: 0px;
     margin-top: -65px;
    width: 0;
    height: 0;
@@ -254,3 +255,4 @@ ul{
     margin-top: 5px;
     margin-bottom: 7px;
 }
+
