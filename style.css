@@ -71,7 +71,7 @@ position: relative;
    z-index: 0;
 }
 .clip1-area{
-    margin-bottom: 0px;
+    margin-top: -144px;
 }
 .info{
     z-index: 2;
@@ -258,6 +258,7 @@ ul{
     margin-top: 5px;
     margin-bottom: 7px;
 }
+
 
 
 
